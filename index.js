@@ -18,7 +18,7 @@ var app = express();
 //     console.log('whatever');
 //   });
 
-
+//node to serve the files
   var static_path = __dirname + '/public';
   app.use('/vendor', express.static(static_path + '/vendor'));
   app.use('/css', express.static(static_path + '/css'));

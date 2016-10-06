@@ -1249,6 +1249,12 @@ body.vintage .testimonials .owl-controls .owl-next {
 .iphone-image {
   /*height: 75vh;*/
 }
+.contact-form-p {
+  color: #51D5D6;
+  text-align: left;
+}
 .contact-us-p {
   color: #51D5D6;
+  text-align: center;
+  font-size: 32px;
 }
