@@ -36,8 +36,4 @@ var app = express();
     console.log('whater');
   });
 
-
-  var port = 3000;
-  app.listen(port, function() {
-    console.log('listening on port:', port);
-  });
+  app.listen(process.env.PORT || 3000);
